@@ -6,6 +6,7 @@ mengimport database ( kumparan-test.db ) ke phpmyadmin (menggunakan xampp menyal
 npm start / nodemon index.js -> mulai <br/>
 npm run test -> unit testing<br/>
 untuk mengetes API bisa menggunakan postman dengan base url : localhost:8080/api/.. ( contoh : localhost:8080/api/article)<br/>
+Pengaturan database ( nama,pass,dll) ada pada folder config<br/>
 
 API List method GET :<br/>
 /article -> mendapatkan list semua artikel berdasarkan timestamp terbaru ( sorting descending )<br/>
