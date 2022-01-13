@@ -15,5 +15,12 @@ API List method GET :<br/>
 
 API POST :<br/>
 /article -> untuk menambahkan artikel baru ( nb : jika di test dengan postman, akan merequest terus menerus namun data sudah masuk ke database, maka jika sudah melakukan post pada postman, dapat di cancel langsung saja requestnya karena sebenarnya data sudah masuk.)<br/>
+sample input : <br/>
+         {<br/>
+            "id": "xAe3",<br/>
+            "author_id": "19",<br/>
+            "title": "testing",<br/>
+            "body": "halo halo"<br/>
+        }<br/>
 
 -- Maaf bila ada kekurangan, terimakasih :D
